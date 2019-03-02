@@ -2,6 +2,7 @@
  
 
 [Les Risques](#risques)<br>
+
 [Risque 1 : Risque accru de compromission des systèmes](#compromission)<br>
 [Risque 2 : Accroissement du risque d’indisponibilité](#indispo)<br>
 [Risque 3 : Fuite d’information par manque de cloisonnement](#cloisonnement)<br>
@@ -10,6 +11,7 @@
 [Risque 6 : Prolifération non souhaitée des données et des systèmes](#proliferation)<br>
 [Risque 7 : Incapacité à gérer voire à comprendre les erreurs](#erreurs)<br>
 [Risque 8 : Investigations post incident plus difficiles](#investigations)<br>
+
 [Les points de controles](#controles)<br>
 
 ## Les Risques <a id="risques"></a> 
@@ -89,7 +91,7 @@ la mémoire non utilisé peut etre réutiliser par d'autre instance et donc non 
  - le risque d’indisponibilité d’une application est plus élevé si elle est hébergée sur une machine virtuelle ;<br>
  - la migration non voulue des systèmes invités, de leurs applications et des données qu’ellestraitent, d’une machine physique à une autre peut conduire à une circulation non souhaitée desdonnées sur le réseau ;<br>
 
-### Point 3: Les systèmes invités présents sur une même machine physique manipulent des données qui ontune sensibilité similaire ;
+### Point 3: Les systèmes invités présents sur une même machine physique manipulent des données qui ont une sensibilité similaire ;
 
 ### Point 4 : Les systèmes invités présents sur une même machine physique appartiennent originellement à une même zone de confiance (Réseau d’entreprise interne, de production, de recherche et déve-loppement, etc.) ;
 
